@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+        div {
+            box-shadow: 0 0 10px black;
+            width: 250px;
+            height: 200px;
+            position: relative;
+            overflow: hidden;
+        }
+        div>img{ width: inherit;
+            height: inherit;
+            filter: grayscale(100%);
+            transition:all is linear 1s;
+        }
+        div>#content
+        {
+            background-color: rgb(246,255,117 .12);
+            position: absolute;
+            top: 0px;
+            left:0px;
+            text-align: center;
+            color:white;
+            transform: translateY(0%);
+            transition: all is linear 0s;
+            t
+        }
+        div:hover>img
+        {
+            filter: grayscale();
+        }
+        div:hover>#content
+        {
+            filter: grayscale(100%);
+        }
+        
+    </style>
+</head>
+<body>
+    <div>
+        <img src="../images/garrett-parker-DlkF4-dbCOU-unsplash.jpg"alt="">
+        <div id="content">
+            <h1>allu arjun:-</h1>
+            <p>ksfbjo asjdqoe alsdnioqe qdqio wdqwiod kendfioeq idioq tugv ugbiukb 
+                njinkjl jinijkm ijbi hyuv iugy7 hugvt7 iliu huvtcv kjhik
+            </p>
+            <button>read more</button>
+        </div>
+    </div>
+</body>
+</html>

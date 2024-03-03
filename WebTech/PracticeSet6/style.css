@@ -1,0 +1,30 @@
+ul
+{
+    background-color: pink;
+    display: flex;
+    justify-content: space-evenly;
+}
+a{
+    text-decoration: none;
+    color:rgb(141, 106, 106);
+}
+li
+{
+    list-style-type: none;
+    background-color: rgb(214, 177, 28);
+}
+.outer
+{
+    height: 400px;
+    width: 400px;
+    background-color: cornflowerblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inner
+{
+    height: 100px;
+    width: 100px;
+    background-color: darkgreen;
+}
